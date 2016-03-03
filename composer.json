@@ -1,0 +1,23 @@
+{
+    "name": "glagola/yii2-jquery-nicescroll",
+    "description": "jQuery.NiceScroll assets for Yii PHP framework 2.0",
+    "keywords": ["yii", "extension", "jquery", "nicescroll", "assets"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Igor Glagola",
+            "email": "igor@glagola.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jquery.nicescroll":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "glagola\\nicescroll\\": ""
+        }
+    }
+}
