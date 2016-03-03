@@ -6,7 +6,7 @@ use \yii\web\AssetBundle;
 class JQueryNiceScrollAsset extends AssetBundle {
     public $sourcePath = '@bower/jquery.nicescroll/dist';
 
-    public $css = [
+    public $js = [
         'jquery.nicescroll.min.js',
     ];
 
